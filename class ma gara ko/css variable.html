@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            --heading-color:rgb(249, 12, 126);
+            --paragraph-color:aqua;
+            --heading-font: 40px;
+            --paragraph-font: 20px;
+        }
+        h1{
+            color: var(--heading-color);
+            font-size: var(--heading-font);
+        }
+        p{
+            color: var(--paragraph-color);
+            font-size: var(--paragraph-font);
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Hiiii world</p>
+</body>
+</html>
